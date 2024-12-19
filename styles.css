@@ -9,6 +9,8 @@ H2{
     letter-spacing: --3px;
     column-count:2;
     column-gap: 3cm; 
+    margin: 50px;
+    padding:50px
 }
 H1{
     COLOR: GREEN;
@@ -21,4 +23,10 @@ li{
     border-style: solid;
     list-style-type: none;
     text-shadow: 1px 1px black;
-    }
+}
+img[src="AOT.jpg"]{
+    image-orientation: 90deg;
+}
+a[href]{
+    text-shadow: 2px 2px red
+}
