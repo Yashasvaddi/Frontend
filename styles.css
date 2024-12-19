@@ -1,6 +1,24 @@
 H2{
     color: red;
-    }
+    background-color: slateblue;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: --3px;
+    column-count:2;
+    column-gap: 3cm; 
+}
+H1{
+    COLOR: GREEN;
+}
 li{
     color: blue;
+    border-color: black;
+    border-width: 1px ;
+    border-radius: 3px;
+    border-style: solid;
+    list-style-type: none;
+    text-shadow: 1px 1px black;
     }
