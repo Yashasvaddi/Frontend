@@ -1,6 +1,7 @@
 html,body{
     margin:0px;
     padding:0px;
+    overflow-x:hidden;
 }
 .links{
     transform:translateX(1600px) translateY(-50px);
@@ -50,6 +51,7 @@ img{
     border-style: solid;
     border-width: 1px;
     padding:260px;
+    padding-bottom:100px;
     margin:0px;
     background-color: rgb(7, 66, 86)
 }
@@ -73,7 +75,27 @@ p{
     border-style: solid;
     border-width: 1px;
     padding: 25px;
+    background-color:rgb(34, 98, 114);
 }
 .data{
     transform:translateY(150px) translateX(90px);
+}
+.children{
+    position:absolute;
+    top:200px;
+    left:1120px;
+    transition: top 0px,right -150px;
+    width:650px;
+    height:auto;
+    border-width: 5px;
+    border-style: solid;
+}
+.group{
+    position: absolute;
+    top:750px;
+    left:1550px;
+    width: 600px;
+    height:auto;
+    border-width: 5px;
+    border-style: solid;
 }
