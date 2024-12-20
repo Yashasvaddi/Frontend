@@ -60,16 +60,6 @@ blockquote{
     font-size:70px;
     color:white;
 }
-p{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align:justify;
-    font-size: 50px;
-    width: 50%;
-    color:rgb(226, 226, 226);
-    transform: translateY(-300px) translateX(-225px);
-}
 .FOOTER{
     border-color: black;
     border-style: solid;
@@ -82,7 +72,7 @@ p{
 }
 .children{
     position:absolute;
-    top:200px;
+    top:1050px;
     left:1120px;
     transition: top 0px,right -150px;
     width:650px;
@@ -92,10 +82,46 @@ p{
 }
 .group{
     position: absolute;
-    top:750px;
+    top:1580px;
     left:1550px;
     width: 600px;
     height:auto;
     border-width: 5px;
     border-style: solid;
+}
+.background{
+    position:absolute;
+    top: -30px;
+    left:-40px;
+    width: 2400px;
+    height:auto;
+    z-index: 1;
+}
+.heading{
+    position: absolute;
+    z-index:2;
+    top:150px;
+    left:300px;
+    right:275px;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 5px 5px white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topcentre{
+    position: relative;
+    padding:450px;
+    padding-bottom: 0px;
+    border-style: solid;
+    border-width: 1px;
+    z-index: 4;
+    padding-bottom: 350px;
+}
+.text{
+    position: absolute;
+    top:875px;
+    left:150px;
+    right:100;
+    color:black;
+    font-size: 25px;
 }
