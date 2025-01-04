@@ -68,6 +68,9 @@ img{
     height:800px;
     padding-bottom: 10px;
     z-index: 0;
+    filter:blur(15px);
+    transition-duration: 1s;
+    transition-property: filter;
 }
 .heading{
     position: absolute;
@@ -79,6 +82,14 @@ img{
     text-align: center;
     text-shadow: 5px 5px white;
     font-family: 'Times New Roman', Times, serif;
+    transition-duration: 2s;
+    transition-property: transform;
+}
+.topcentre:hover .heading{
+    transform:scale(1.2);
+}
+.topcentre:hover .background{
+    filter:none;
 }
 .topcentre{
     position: relative;
