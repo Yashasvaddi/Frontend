@@ -367,3 +367,10 @@ img{
     text-decoration: none;
     font-size: 25px;
 }
+.titles{
+    text-decoration: none;
+    font-size:110px;
+    position:absolute;
+    top:30px;
+    color:rgb(34, 98, 114);
+}
