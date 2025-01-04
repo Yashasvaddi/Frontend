@@ -131,6 +131,7 @@ img{
     border-width: 1px;
     border-style: solid;
     padding:190px;
+    padding-bottom: 210px;
 }
 .aim{
     position:relative;
@@ -141,7 +142,7 @@ img{
 }
 .aimbg{
     position:absolute;
-    top:1320px;
+    top:1325px;
     width: 3000px;
     height: 450px;
     z-index: 0;
